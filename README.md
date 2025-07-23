@@ -15,9 +15,9 @@ It adds some new features on top of the tutorial:
 
 ## Tapping the faucet 💧
 
-- [ ] TO DO: dedicated UI to interact with the faucet
+Access the AI generated UI on [solana-spl-faucet.vercel.app](https://solana-spl-faucet.vercel.app/). Switch your wallet to **devnet** and initialize or mint tokens. 
 
-In the meantime, see the last section and follow steps 4 (funding, since you still need an account to sign and pay the transaction with) and 6 (running the test) to get some tokens from the faucet. Replace the `recipient` variable to target the faucet towards another account.
+To access the faucet programatically check the resources folder for an IDL and the tests folder for a very rough example. 
 
 ## Deployments and tokens 📚
 
@@ -28,6 +28,7 @@ In the meantime, see the last section and follow steps 4 (funding, since you sti
 | Cluster | Symbol  | Mint Address                                   |
 | ------- | ------- | ---------------------------------------------- |
 | Devnet  | `USDCD` | `6SNumpJmqb1CAKsxxiVqXxjTUXe1TxPbUi9jd7wG4a1P` |
+| Devnet  | `AAVED` | `5tR9VDncEekQ2Y4ufEiokS6fKEXW2v16zGJKFVXuJNwj` |
 
 ## Deploying your own new Faucet ⚙️
 
